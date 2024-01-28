@@ -1,5 +1,5 @@
 FROM busybox
 
-COPY ./app /app
+COPY ./in-cluster /in-cluster
 
-ENTRYPOINT [ "/app" ]
+ENTRYPOINT [ "/in-cluster" ]

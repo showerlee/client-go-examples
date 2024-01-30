@@ -56,3 +56,18 @@ kubectl create clusterrolebinding default-view --clusterrole=view --serviceaccou
 ```
 kubectl run -i in-cluster --image=in-cluster:v1
 ```
+
+## out-of-cluster-configuration
+
+### Compilation
+
+```
+cd out-of-cluster-configuration
+go build -o ./out-of-cluster .
+```
+
+### Execute
+
+```
+./out-of-cluster
+```

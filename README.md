@@ -25,6 +25,8 @@ This repo is intent to practice k8s development via client-go SDK
     ```
     go get k8s.io/apimachinery/pkg/apis/meta/v1
     go get k8s.io/client-go/kubernetes
+    go get k8s.io/client-go/tools/clientcmd
+    go get k8s.io/client-go/util/homedir
     ```
 
 ## in-cluster-configuration
